@@ -10,7 +10,12 @@
       "files": [
         "styles/main.less"
       ],
-      "main": true
+      "main": true,
+      "exclude": {
+        "bower": [
+          "bootstrap-rtl"
+        ]
+      }
     },
     "rtl.css": {
       "files": [
